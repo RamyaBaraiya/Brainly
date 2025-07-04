@@ -1,0 +1,19 @@
+
+body {
+  font-family: 'Inter', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, 'sans-serif';
+  background: linear-gradient(135deg, #f8fafc 0%, #f3e8ff 100%);
+  min-height: 100vh;
+}
+
+.fancy-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background: #f3e8ff;
+}
+.fancy-scrollbar::-webkit-scrollbar-thumb {
+  background: #c4b5fd;
+  border-radius: 8px;
+}
+.fancy-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #c4b5fd #f3e8ff;
+}
