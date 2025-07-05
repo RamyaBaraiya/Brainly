@@ -3,7 +3,6 @@ import mongoose from 'mongoose';
 import {model,Schema} from 'mongoose';
 
 
-//  mongoose.connect("mongodb+srv://gujjubhai734:Lx6RbzLU7A72TpYO@cluster0.wvwpdqi.mongodb.net/week15")
 
 const userSchema = new Schema({
     username: { type: String, required: true, unique: true },
@@ -33,9 +32,3 @@ export const contentModel =model('Content', contentSchema);
 export const tagModel = model('Tag', tagSchema);
 export const linkModel = model('Link', linkSchema);
 
-// module.exports = {
-//     userModel, 
-//     contentModel,
-//     tagModel,
-//     linkModel
-// };
